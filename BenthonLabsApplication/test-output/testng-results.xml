@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T17:21:12 IST" name="Default suite" finished-at="2023-01-13T17:21:18 IST" duration-ms="6598">
+    <groups>
+    </groups>
+    <test started-at="2023-01-13T17:21:12 IST" name="Default test" finished-at="2023-01-13T17:21:18 IST" duration-ms="6598">
+      <class name="com.benthonLabs.BenthonLabsApplication.Home_Pages">
+        <test-method is-config="true" signature="Browser_Lunch()[pri:0, instance:com.benthonLabs.BenthonLabsApplication.Home_Pages@f5ac9e4]" started-at="2023-01-13T17:21:12 IST" name="Browser_Lunch" finished-at="2023-01-13T17:21:15 IST" duration-ms="2926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Lunch -->
+        <test-method signature="HomePage_Open()[pri:1, instance:com.benthonLabs.BenthonLabsApplication.Home_Pages@f5ac9e4]" started-at="2023-01-13T17:21:15 IST" name="HomePage_Open" finished-at="2023-01-13T17:21:18 IST" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Open -->
+        <test-method signature="Homebanaer_TitleDescription()[pri:2, instance:com.benthonLabs.BenthonLabsApplication.Home_Pages@f5ac9e4]" started-at="2023-01-13T17:21:18 IST" name="Homebanaer_TitleDescription" finished-at="2023-01-13T17:21:18 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homebanaer_TitleDescription -->
+        <test-method is-config="true" signature="DearDown()[pri:0, instance:com.benthonLabs.BenthonLabsApplication.Home_Pages@f5ac9e4]" started-at="2023-01-13T17:21:18 IST" name="DearDown" finished-at="2023-01-13T17:21:18 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DearDown -->
+      </class> <!-- com.benthonLabs.BenthonLabsApplication.Home_Pages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
