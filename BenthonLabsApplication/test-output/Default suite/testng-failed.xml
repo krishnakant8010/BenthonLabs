@@ -6,7 +6,7 @@
       <class name="com.benthonLabs.BenthonLabsApplication.Home_Pages">
         <methods>
           <include name="Browser_Lunch"/>
-          <include name="EXTENSIVE_EXPERTISE_H2"/>
+          <include name="Success_Client"/>
           <include name="DearDown"/>
         </methods>
       </class> <!-- com.benthonLabs.BenthonLabsApplication.Home_Pages -->
