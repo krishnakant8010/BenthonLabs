@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.benthonLabs.BenthonLabsApplication.Home_Pages">
+      <class name="com.benthonLabs.BenthonLabsApplication.Start_Your_Project">
         <methods>
-          <include name="Browser_Lunch"/>
-          <include name="Success_Client"/>
-          <include name="DearDown"/>
+          <include name="Verify_Captcha"/>
+          <include name="Open_Browser"/>
+          <include name="Verify_Start_Your_Project_Page"/>
         </methods>
-      </class> <!-- com.benthonLabs.BenthonLabsApplication.Home_Pages -->
+      </class> <!-- com.benthonLabs.BenthonLabsApplication.Start_Your_Project -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

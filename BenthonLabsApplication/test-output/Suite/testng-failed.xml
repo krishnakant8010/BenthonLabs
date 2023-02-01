@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Start Your project(failed)">
     <classes>
-      <class name="com.benthonLabs.BenthonLabsApplication.Home_Pages">
+      <class name="com.benthonLabs.BenthonLabsApplication.Start_Your_Project">
         <methods>
-          <include name="Browser_Lunch"/>
-          <include name="EXTENSIVE_EXPERTISE_H2"/>
-          <include name="DearDown"/>
+          <include name="Verify_Captcha"/>
+          <include name="Open_Browser"/>
+          <include name="Verify_Start_Your_Project_Page"/>
         </methods>
-      </class> <!-- com.benthonLabs.BenthonLabsApplication.Home_Pages -->
+      </class> <!-- com.benthonLabs.BenthonLabsApplication.Start_Your_Project -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Start Your project(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -8,12 +8,36 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,170</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Start Your project</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">44,323</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.benthonLabs.BenthonLabsApplication.Home_Pages</td><td><a href="#m0">HomePage_Open</a></td><td rowspan="1">1674302463737</td><td rowspan="1">5766</td></tr><tr class="passedeven"><td><a href="#m1">Success_Client</a></td><td rowspan="1">1674302469508</td><td rowspan="1">2786</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Start Your project &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.benthonLabs.BenthonLabsApplication.Browser_Closed</td><td><a href="#m0">Close_Browser</a></td><td rowspan="1">1675254571751</td><td rowspan="1">1013</td></tr><tr><th colspan="4">Start Your project &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.benthonLabs.BenthonLabsApplication.Start_Your_Project</td><td><a href="#m1">Verify_Captcha</a></td><td rowspan="1">1675254571189</td><td rowspan="1">427</td></tr><tr><th colspan="4">Start Your project &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.benthonLabs.BenthonLabsApplication.Start_Your_Project</td><td><a href="#m2">Verify_Start_Your_Project_Page</a></td><td rowspan="1">1675254558734</td><td rowspan="1">12438</td></tr><tr class="passedodd"><td rowspan="1">com.benthonLabs.BenthonLabsApplication.Website_OpenOn_Browser</td><td><a href="#m3">Verify_Website_Open</a></td><td rowspan="1">1675254545835</td><td rowspan="1">12831</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.benthonLabs.BenthonLabsApplication.Home_Pages#HomePage_Open</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.benthonLabs.BenthonLabsApplication.Home_Pages#Success_Client</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Start Your project</h2><h3 id="m0">com.benthonLabs.BenthonLabsApplication.Browser_Closed#Close_Browser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null
+	at com.benthonLabs.BenthonLabsApplication.Browser_Closed.Close_Browser(Browser_Closed.java:11)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.benthonLabs.BenthonLabsApplication.Start_Your_Project#Verify_Captcha</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-JL84H6HT&apos;, ip: &apos;192.168.29.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c15b83c4b4ba7be6ba07841ebafff922, actions {actions=[org.openqa.selenium.interactions.Sequence@1603dc2f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\CL-009\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49188/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c15b83c4b4ba7be6ba07841ebafff922
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:573)
+	at com.benthonLabs.BenthonLabsApplication.Start_Your_Project.Verify_Captcha(Start_Your_Project.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.benthonLabs.BenthonLabsApplication.Start_Your_Project#Verify_Start_Your_Project_Page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.benthonLabs.BenthonLabsApplication.Website_OpenOn_Browser#Verify_Website_Open</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

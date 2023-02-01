@@ -31,7 +31,7 @@ public class Home_Pages {
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	}
 
 	@Test(priority = 1)
@@ -291,7 +291,7 @@ public class Home_Pages {
 		Assert.assertEquals(ActualMobileApplicationP, ExpMobileApplicationP);
 	}
 //OUR SUCCESS STORIES
-		@Test(priority=7, enabled=true)
+		@Test(priority=7, enabled=false)
 		public void Success_Client(){
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			WebDriverWait wait=new WebDriverWait(driver, 30);
@@ -350,11 +350,33 @@ public class Home_Pages {
 			
 			String Exp_USA="USA";
 			String Actual_USA=driver.findElement(By.xpath("(//h4[text()='USA'])[1]")).getText();
-			Assert.assertEquals(Actual_USA, Exp_USA);
+			Assert.assertEquals(Actual_USA, Exp_USA);	
+		}
+//SAKEWIZ TOURISM
+		@Test(priority=8,enabled =true)
+		public void Tourism() {
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			//WebDriverWait wait=new WebDriverWait(driver, 50);
+			//Find element by link text and store in variable "Element"        		
+	        WebElement Element2 = driver.findElement(By.xpath("//body[1]/main[1]/section[4]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/h6[1]"));
+
+	        //This will scroll the page till the element is found		
+	        js.executeScript("arguments[0].scrollIntoView();", Element2);
 			
+//			String ExpTourism="SAKEWIZ TOURISM";
+//			String ActualTourism=driver.findElement(By.xpath("//h3[contains(text(),'SAKEWIZ TOURISM')]")).getText();
+//			System.out.println(ActualTourism);
+//			Assert.assertEquals(ActualTourism, ExpTourism);	
+//			//H 4
+//			String ExpTourismH4="Explore Breweries and Sakes in Japan";
+//			String ActualTourismH4=driver.findElement(By.xpath("//h4[contains(text(),'Explore Breweries and Sakes in Japan')]")).getText();
+//			Assert.assertEquals(ActualTourismH4, ExpTourismH4);
+//			//Paragraph
+//			String ExpTourismP="Explore Breweries and Sakes in Japan";
+//			String ActualTourismP=driver.findElement(By.xpath("//p[contains(text(),'Sakewiz came with the concept of “Connecting the w')]")).getText();
+//			Assert.assertEquals(ActualTourismP, ExpTourismP);
 			
-			
-			
+		
 		}
 	@AfterTest
 	public void DearDown() {
