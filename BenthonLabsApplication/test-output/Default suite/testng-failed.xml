@@ -5,7 +5,8 @@
     <classes>
       <class name="com.benthonLabs.BenthonLabsApplication.Start_Your_Project">
         <methods>
-          <include name="Verify_Captcha"/>
+          <include name="Closed_Opened_Browser"/>
+          <include name="Verify_Start_Your_project_Form"/>
           <include name="Open_Browser"/>
           <include name="Verify_Start_Your_Project_Page"/>
         </methods>

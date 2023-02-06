@@ -19,7 +19,6 @@
 					<include name="EXTENSIVE_EXPERTISE_H2"></include>
 				</methods>
 			</class>
-
 	</classes>
 	</test> <!-- Test -->
 	<test name="Browser Open With Website URL" enabled="false">
@@ -30,31 +29,13 @@
 					<include name="Open_Browser"></include>
 					<include name="Verify_Website_Open" />
 				</methods>
-
 			</class>
 		</classes>
 	</test>
 	<test name="Start Your project">
 		<classes>
-			<class
-				name="com.benthonLabs.BenthonLabsApplication.Website_OpenOn_Browser">
-				<methods>
-					<include name="Open_Browser"></include>
-					<include name="Verify_Website_Open" />
-				</methods>
-			</class>
-			<class name="com.benthonLabs.BenthonLabsApplication.Start_Your_Project">
-				<methods>
-					<include name="Verify_Start_Your_Project_Page"></include>
-					<include name="Verify_Captcha"></include>
-				</methods>
-
-			</class>
-			<class name="com.benthonLabs.BenthonLabsApplication.Browser_Closed">
-				<methods>
-					<include name="Close_Browser"></include>
-				</methods>
-			</class>
+			<class name="com.benthonLabs.BenthonLabsApplication.Website_OpenOn_Browser"></class>
+			<class name="com.benthonLabs.BenthonLabsApplication.Start_Your_Project"/>
 		</classes>
 	</test>
 </suite> <!-- Suite -->
