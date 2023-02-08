@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.benthonLabs.BenthonLabsApplication.Start_Your_Project">
+      <class name="BenthonLabsPages.Start_Your_Project">
         <methods>
-          <include name="Closed_Opened_Browser"/>
-          <include name="Verify_Start_Your_project_Form"/>
           <include name="Open_Browser"/>
+          <include name="Verify_Start_Your_project_Form"/>
+          <include name="Verify_With_InvalidValue"/>
+          <include name="Verify_Project_Form_With_EmptyData"/>
           <include name="Verify_Start_Your_Project_Page"/>
         </methods>
-      </class> <!-- com.benthonLabs.BenthonLabsApplication.Start_Your_Project -->
+      </class> <!-- BenthonLabsPages.Start_Your_Project -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

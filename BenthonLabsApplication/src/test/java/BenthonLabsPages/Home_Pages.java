@@ -1,4 +1,4 @@
-package com.benthonLabs.BenthonLabsApplication;
+package BenthonLabsPages;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
